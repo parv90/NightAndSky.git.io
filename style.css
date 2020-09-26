@@ -5,3 +5,24 @@
     background-color: #031126;
 }
 
+/* Navbar */
+
+nav {
+    height: 10vh;
+    padding: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav img {
+    height: 5rem;
+}
+
+/* Landing Page */
+
+.landing {
+    height: 100vh;
+    position: absolute;
+    overflow: hidden;
+}
