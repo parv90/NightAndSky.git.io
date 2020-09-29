@@ -5,24 +5,26 @@
     background-color: #031126;
 }
 
-/* Navbar */
-
-nav {
-    height: 10vh;
-    padding: 4rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-nav img {
-    height: 5rem;
-}
-
 /* Landing Page */
 
 .landing {
-    height: 100vh;
-    position: absolute;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: auto;
     overflow: hidden;
+}
+
+.landing h1 {
+    margin-left: 5rem;
+    font-family: 'Niconne', cursive;
+    font-size: 5rem;
+    color: #fff;
+}
+
+.landing img {
+    height: 100vh;
+    width: auto;
 }
